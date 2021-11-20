@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sridatta.busyhunkproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".BusyHunk"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivityLatest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_Register"
+            android:theme="@style/GreenAppTheme"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="https://play.google.com/store/apps/details?id=com.sridatta.busyhunkproject"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".optionsActivity"
+            android:parentActivityName=".MainActivityLatest" />
+        <activity
+            android:name=".searchActivity"
+            android:parentActivityName=".MainActivityLatest" />
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".sms.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity android:name=".SalonProviderDetails" />
+        <activity
+            android:name=".SalonServicesActivity"
+            android:parentActivityName=".MainActivityLatest" />
+        <activity
+            android:name=".ChooseSalonTimings"
+            android:parentActivityName=".SalonServicesActivity" />
+        <activity
+            android:name=".ProviderActivity"
+            android:parentActivityName=".MainActivityLatest" />
+        <activity
+            android:name=".WalletActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity
+            android:name=".ShareActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity
+            android:name=".ProvidersActivity"
+            android:parentActivityName=".MainActivityLatest" />
+        <activity
+            android:name=".BookingsActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity
+            android:name=".FavouritesActivity"
+            android:parentActivityName=".optionsActivity" />
+        <activity
+            android:name=".BookNowActivity"
+            android:parentActivityName=".ChooseSalonTimings" />
+        <activity
+            android:name=".BookingResult"
+            android:parentActivityName=".BookNowActivity" /> <!-- crop image -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".RewardBookNow" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".RestrauntsMainActivity" />
+        <activity android:name=".CarServiceMainActivity"></activity>
+    </application>
+
+</manifest>

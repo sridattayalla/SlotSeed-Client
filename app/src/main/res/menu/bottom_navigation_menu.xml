@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/salon"
+        android:icon="@drawable/ic_mirror"
+        android:title="Salon" />
+    <item
+        android:id="@+id/restraunt"
+        android:icon="@drawable/ic_restaurant"
+        android:title="Restaurant" />
+    <item
+        android:id="@+id/car_wash"
+        android:icon="@drawable/ic_car_wash"
+        android:title="Car wash"/>
+</menu>

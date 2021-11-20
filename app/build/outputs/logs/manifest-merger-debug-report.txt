@@ -1,0 +1,805 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+MERGED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:17:1-31:12
+MERGED from [com.airbnb.android:lottie:2.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/7382adeb968fabc396f495a7fa2b9dda/AndroidManifest.xml:2:1-12:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /home/datta/.gradle/caches/transforms-2/files-2.1/394059476dcb08e536b42b5c1f7e4763/AndroidManifest.xml:2:1-12:12
+MERGED from [com.poovam:pin-edittext-field:1.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/e8e35251ef9fae6d6919655cc811d413/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.GwonHyeok:StickySwitch:0.0.15] /home/datta/.gradle/caches/transforms-2/files-2.1/c584fe8b676a0f4e32a5428ff760412e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/f76dfc6d84118de38c827206563fa6f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ff103af957a17f61b564875f186264d7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/a70410977a6b35aec7695b961b22e2b2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-invites:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/8a622ab8cda8cd181b0230e15ded3ec8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-config:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0249a29b16b9622b59024c7ea359494f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:17:1-56:12
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0636b021a3759ace6e765c38a9d20f89/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/fa827241272dfc04826ba877c9567338/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/37515875f150c4e8e8ecf8ab6c79699a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/685a2db3f2e56a7e8ec5d73b4fb8bbce/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/c6f7b2738cfed256304e65aefaf34a0a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-abt:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/c40b036a9506f279a4acdefb664248a3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/5bc86bf286f5dd5af8f38ad0b083229c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/be9edae3c0f3bf65a085f1864866432b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/4fa8282f9d44ec0090e9c6ca5ac92abe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/f37e533fe1e463cd44d875e1e02a753d/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/734418652498d3e4a06ffb1833445e46/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/42ff13ad5ad278b4a4261c445fbe141b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/50a9049e417ec93f66a8e92b650714aa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/d07d0cb0450c24b3dde2bba53e533f43/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:17:1-28:12
+MERGED from [net.igenius:customcheckbox:1.3] /home/datta/.gradle/caches/transforms-2/files-2.1/d1940db567b3a6b52d4d70d95d10ded3/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/datta/.gradle/caches/transforms-2/files-2.1/ab27c8c91b28f24fae33a0307260dae8/AndroidManifest.xml:2:1-11:12
+MERGED from [id.zelory:compressor:2.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/de8e851312d73b86c4b51178a08d29fe/AndroidManifest.xml:2:1-12:12
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/c6def4c2b9fced103a0f00c6a3534c31/AndroidManifest.xml:2:1-16:12
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/datta/.gradle/caches/transforms-2/files-2.1/e22e351c4fe28ecbcd64493da9b69c57/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/499a2c477bb3c90f011f06e2e980c4ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1a671fd723e031394e022641af7c2895/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1f87b13abf0576c25fe8079eb858eda4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/77846319132e5bc5f891d57578bed57d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/424238f7db2419de705d3d94e44106c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/99689081df8f60c7a77fceb75f71a8f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/b188361b6acfd8501d0e0e5228a6c4e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/75bc80ba3d871582c36f1864a015c129/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:25.3.1] /home/datta/.gradle/caches/transforms-2/files-2.1/095ef74b422cb6d286f38e4d713e516f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/5048225e7854ff3a11358f95e6fef818/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+	package
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:1-119:12
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:10:5-117:19
+MERGED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:25:5-29:19
+MERGED from [com.airbnb.android:lottie:2.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/7382adeb968fabc396f495a7fa2b9dda/AndroidManifest.xml:10:5-20
+MERGED from [com.airbnb.android:lottie:2.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/7382adeb968fabc396f495a7fa2b9dda/AndroidManifest.xml:10:5-20
+MERGED from [com.github.GwonHyeok:StickySwitch:0.0.15] /home/datta/.gradle/caches/transforms-2/files-2.1/c584fe8b676a0f4e32a5428ff760412e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.GwonHyeok:StickySwitch:0.0.15] /home/datta/.gradle/caches/transforms-2/files-2.1/c584fe8b676a0f4e32a5428ff760412e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ff103af957a17f61b564875f186264d7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ff103af957a17f61b564875f186264d7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/a70410977a6b35aec7695b961b22e2b2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/a70410977a6b35aec7695b961b22e2b2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-invites:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/8a622ab8cda8cd181b0230e15ded3ec8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-invites:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/8a622ab8cda8cd181b0230e15ded3ec8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-config:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0249a29b16b9622b59024c7ea359494f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0249a29b16b9622b59024c7ea359494f/AndroidManifest.xml:22:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:46:5-54:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:24:5-30:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0636b021a3759ace6e765c38a9d20f89/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0636b021a3759ace6e765c38a9d20f89/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/37515875f150c4e8e8ecf8ab6c79699a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/37515875f150c4e8e8ecf8ab6c79699a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:24:5-35:19
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/685a2db3f2e56a7e8ec5d73b4fb8bbce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/685a2db3f2e56a7e8ec5d73b4fb8bbce/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/c6f7b2738cfed256304e65aefaf34a0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/c6f7b2738cfed256304e65aefaf34a0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/5bc86bf286f5dd5af8f38ad0b083229c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/5bc86bf286f5dd5af8f38ad0b083229c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/be9edae3c0f3bf65a085f1864866432b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/be9edae3c0f3bf65a085f1864866432b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/4fa8282f9d44ec0090e9c6ca5ac92abe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/4fa8282f9d44ec0090e9c6ca5ac92abe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/734418652498d3e4a06ffb1833445e46/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/734418652498d3e4a06ffb1833445e46/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/42ff13ad5ad278b4a4261c445fbe141b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/42ff13ad5ad278b4a4261c445fbe141b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/50a9049e417ec93f66a8e92b650714aa/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/50a9049e417ec93f66a8e92b650714aa/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/d07d0cb0450c24b3dde2bba53e533f43/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/d07d0cb0450c24b3dde2bba53e533f43/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/datta/.gradle/caches/transforms-2/files-2.1/ab27c8c91b28f24fae33a0307260dae8/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/datta/.gradle/caches/transforms-2/files-2.1/ab27c8c91b28f24fae33a0307260dae8/AndroidManifest.xml:9:5-20
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/c6def4c2b9fced103a0f00c6a3534c31/AndroidManifest.xml:11:5-14:19
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/c6def4c2b9fced103a0f00c6a3534c31/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:exifinterface:25.3.1] /home/datta/.gradle/caches/transforms-2/files-2.1/095ef74b422cb6d286f38e4d713e516f/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:exifinterface:25.3.1] /home/datta/.gradle/caches/transforms-2/files-2.1/095ef74b422cb6d286f38e4d713e516f/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/5048225e7854ff3a11358f95e6fef818/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/5048225e7854ff3a11358f95e6fef818/AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:16:9-59
+	android:largeHeap
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:15:9-33
+	android:icon
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:13:9-48
+	android:allowBackup
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:11:9-33
+activity#com.sridatta.busyhunkproject.MainActivityLatest
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:19:9-21:59
+	android:theme
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:20:13-47
+activity#com.sridatta.busyhunkproject.SplashScreen
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.sridatta.busyhunkproject.Login_Register
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:29:9-33:58
+	android:screenOrientation
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:32:13-49
+	android:windowSoftInputMode
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:33:13-55
+	android:theme
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:30:13-43
+activity#com.sridatta.busyhunkproject.RegisterActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:34:9-45:20
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:34:19-51
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:https://play.google.com/store/apps/details?id=com.sridatta.busyhunkproject+data:scheme:http
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:35:13-44:29
+action#android.intent.action.VIEW
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:39:27-75
+data
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:41:17-43:45
+	android:host
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:42:21-110
+	android:scheme
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:43:21-42
+activity#com.sridatta.busyhunkproject.optionsActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:46:9-48:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:48:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:47:13-44
+activity#com.sridatta.busyhunkproject.searchActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:49:9-51:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:51:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:50:13-43
+receiver#com.sridatta.busyhunkproject.ConnectivityReceiver
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:53:9-59:20
+	android:enabled
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:55:13-35
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:54:13-49
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:56:13-58:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:57:25-76
+receiver#com.sridatta.busyhunkproject.sms.SmsReceiver
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:60:9-64:20
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:60:19-50
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:61:13-63:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:62:25-79
+activity#com.sridatta.busyhunkproject.ProfileActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:66:9-68:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:67:13-44
+activity#com.sridatta.busyhunkproject.SalonProviderDetails
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:69:9-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:69:19-55
+activity#com.sridatta.busyhunkproject.SalonServicesActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:70:9-72:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:72:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:71:13-50
+activity#com.sridatta.busyhunkproject.ChooseSalonTimings
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:73:9-75:67
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:75:13-64
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:74:13-47
+activity#com.sridatta.busyhunkproject.ProviderActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:76:9-78:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:78:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:77:13-45
+activity#com.sridatta.busyhunkproject.WalletActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:79:9-81:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:81:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:80:13-43
+activity#com.sridatta.busyhunkproject.AboutActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:82:9-84:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:84:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:83:13-42
+activity#com.sridatta.busyhunkproject.ShareActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:85:9-87:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:87:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:86:13-42
+activity#com.sridatta.busyhunkproject.ProvidersActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:88:9-90:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:90:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:89:13-46
+activity#com.sridatta.busyhunkproject.BookingsActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:91:9-93:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:93:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:92:13-45
+activity#com.sridatta.busyhunkproject.FavouritesActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:94:9-96:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:96:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:95:13-47
+activity#com.sridatta.busyhunkproject.BookNowActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:97:9-99:64
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:99:13-61
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:98:13-44
+activity#com.sridatta.busyhunkproject.BookingResult
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:100:9-102:61
+	android:parentActivityName
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:102:13-58
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:101:13-42
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:103:9-105:59
+	android:theme
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:105:13-56
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:104:13-76
+service#com.sridatta.busyhunkproject.FirebaseMessagingService
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:107:9-111:19
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:107:18-58
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:108:13-110:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:109:17-80
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:109:25-77
+activity#com.sridatta.busyhunkproject.RewardBookNow
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:113:9-51
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:113:19-48
+activity#com.sridatta.busyhunkproject.IntroActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:114:9-51
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:114:19-48
+activity#com.sridatta.busyhunkproject.RestrauntsMainActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:115:9-60
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:115:19-57
+activity#com.sridatta.busyhunkproject.CarServiceMainActivity
+ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:116:9-69
+	android:name
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml:116:19-57
+uses-sdk
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:21:5-23:62
+MERGED from [com.airbnb.android:lottie:2.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/7382adeb968fabc396f495a7fa2b9dda/AndroidManifest.xml:6:5-8:41
+MERGED from [com.airbnb.android:lottie:2.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/7382adeb968fabc396f495a7fa2b9dda/AndroidManifest.xml:6:5-8:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /home/datta/.gradle/caches/transforms-2/files-2.1/394059476dcb08e536b42b5c1f7e4763/AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /home/datta/.gradle/caches/transforms-2/files-2.1/394059476dcb08e536b42b5c1f7e4763/AndroidManifest.xml:8:5-10:41
+MERGED from [com.poovam:pin-edittext-field:1.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/e8e35251ef9fae6d6919655cc811d413/AndroidManifest.xml:8:5-10:41
+MERGED from [com.poovam:pin-edittext-field:1.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/e8e35251ef9fae6d6919655cc811d413/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.GwonHyeok:StickySwitch:0.0.15] /home/datta/.gradle/caches/transforms-2/files-2.1/c584fe8b676a0f4e32a5428ff760412e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GwonHyeok:StickySwitch:0.0.15] /home/datta/.gradle/caches/transforms-2/files-2.1/c584fe8b676a0f4e32a5428ff760412e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/f76dfc6d84118de38c827206563fa6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/f76dfc6d84118de38c827206563fa6f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ff103af957a17f61b564875f186264d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ff103af957a17f61b564875f186264d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/a70410977a6b35aec7695b961b22e2b2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/a70410977a6b35aec7695b961b22e2b2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ff9eaff637bb461573b3be5a2dc733d1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/03db0d02f2e1292a2be3727b9f74b371/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-invites:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/8a622ab8cda8cd181b0230e15ded3ec8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-invites:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/8a622ab8cda8cd181b0230e15ded3ec8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-config:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0249a29b16b9622b59024c7ea359494f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0249a29b16b9622b59024c7ea359494f/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0636b021a3759ace6e765c38a9d20f89/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0636b021a3759ace6e765c38a9d20f89/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/fa827241272dfc04826ba877c9567338/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/fa827241272dfc04826ba877c9567338/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/37515875f150c4e8e8ecf8ab6c79699a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/37515875f150c4e8e8ecf8ab6c79699a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/685a2db3f2e56a7e8ec5d73b4fb8bbce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/685a2db3f2e56a7e8ec5d73b4fb8bbce/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/c6f7b2738cfed256304e65aefaf34a0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.2] /home/datta/.gradle/caches/transforms-2/files-2.1/c6f7b2738cfed256304e65aefaf34a0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-abt:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/c40b036a9506f279a4acdefb664248a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-abt:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/c40b036a9506f279a4acdefb664248a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/5bc86bf286f5dd5af8f38ad0b083229c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/5bc86bf286f5dd5af8f38ad0b083229c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/be9edae3c0f3bf65a085f1864866432b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/be9edae3c0f3bf65a085f1864866432b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/4fa8282f9d44ec0090e9c6ca5ac92abe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/4fa8282f9d44ec0090e9c6ca5ac92abe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/f37e533fe1e463cd44d875e1e02a753d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/f37e533fe1e463cd44d875e1e02a753d/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/734418652498d3e4a06ffb1833445e46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/734418652498d3e4a06ffb1833445e46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/42ff13ad5ad278b4a4261c445fbe141b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/42ff13ad5ad278b4a4261c445fbe141b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/50a9049e417ec93f66a8e92b650714aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/50a9049e417ec93f66a8e92b650714aa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/d07d0cb0450c24b3dde2bba53e533f43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/datta/.gradle/caches/transforms-2/files-2.1/d07d0cb0450c24b3dde2bba53e533f43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:20:5-44
+MERGED from [net.igenius:customcheckbox:1.3] /home/datta/.gradle/caches/transforms-2/files-2.1/d1940db567b3a6b52d4d70d95d10ded3/AndroidManifest.xml:7:5-9:41
+MERGED from [net.igenius:customcheckbox:1.3] /home/datta/.gradle/caches/transforms-2/files-2.1/d1940db567b3a6b52d4d70d95d10ded3/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/datta/.gradle/caches/transforms-2/files-2.1/ab27c8c91b28f24fae33a0307260dae8/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/datta/.gradle/caches/transforms-2/files-2.1/ab27c8c91b28f24fae33a0307260dae8/AndroidManifest.xml:5:5-7:41
+MERGED from [id.zelory:compressor:2.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/de8e851312d73b86c4b51178a08d29fe/AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/de8e851312d73b86c4b51178a08d29fe/AndroidManifest.xml:8:5-10:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/c6def4c2b9fced103a0f00c6a3534c31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/c6def4c2b9fced103a0f00c6a3534c31/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/datta/.gradle/caches/transforms-2/files-2.1/e22e351c4fe28ecbcd64493da9b69c57/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.4.0] /home/datta/.gradle/caches/transforms-2/files-2.1/e22e351c4fe28ecbcd64493da9b69c57/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/499a2c477bb3c90f011f06e2e980c4ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/499a2c477bb3c90f011f06e2e980c4ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1a671fd723e031394e022641af7c2895/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1a671fd723e031394e022641af7c2895/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1f87b13abf0576c25fe8079eb858eda4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/1f87b13abf0576c25fe8079eb858eda4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/77846319132e5bc5f891d57578bed57d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/77846319132e5bc5f891d57578bed57d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/424238f7db2419de705d3d94e44106c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/424238f7db2419de705d3d94e44106c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/99689081df8f60c7a77fceb75f71a8f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/99689081df8f60c7a77fceb75f71a8f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/b188361b6acfd8501d0e0e5228a6c4e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/b188361b6acfd8501d0e0e5228a6c4e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/75bc80ba3d871582c36f1864a015c129/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/datta/.gradle/caches/transforms-2/files-2.1/75bc80ba3d871582c36f1864a015c129/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:25.3.1] /home/datta/.gradle/caches/transforms-2/files-2.1/095ef74b422cb6d286f38e4d713e516f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:exifinterface:25.3.1] /home/datta/.gradle/caches/transforms-2/files-2.1/095ef74b422cb6d286f38e4d713e516f/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/5048225e7854ff3a11358f95e6fef818/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/5048225e7854ff3a11358f95e6fef818/AndroidManifest.xml:5:5-44
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		ADDED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/datta/VirusDetected/Projects/BusyHunk/BusyHunkProject/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/0ee13b6c9481421ac4c394c14863f0a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/3649e9ebb8eb8ab06e4144dca61b0cd9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/bd41bdb769924fc37f996880b1c60b24/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/275129054dd4199fc3f840caac0fc8f5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/c0dd0bab4b5a13b70ea5057e53757d9f/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/datta/.gradle/caches/transforms-2/files-2.1/dd76467e6b37c24248a90d4bb95db952/AndroidManifest.xml:27:13-51
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:25:9-29:19
+MERGED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:25:9-29:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/de6901643bea59e5627f40947102e870/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.6.0] /home/datta/.gradle/caches/transforms-2/files-2.1/b0478caa036f8e41f1f9d3e87e1411e1/AndroidManifest.xml:48:13-74
+meta-data#com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar
+ADDED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:16.2.1] /home/datta/.gradle/caches/transforms-2/files-2.1/693135ef6203fe666094431df92ea3c3/AndroidManifest.xml:27:17-121
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /home/datta/.gradle/caches/transforms-2/files-2.1/26872921f9d1960a98bd42f3c4e61106/AndroidManifest.xml:32:25-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/datta/.gradle/caches/transforms-2/files-2.1/57ade1d161c71f2c5a145202441a332a/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/datta/.gradle/caches/transforms-2/files-2.1/ed9471ca01ef2c1522ba57f590044646/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/ae8715ac9288a0b73569688be1e2f3fe/AndroidManifest.xml:49:13-87
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:27:13-36
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:26:13-76
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:29:13-33:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:30:17-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:16.0.4] /home/datta/.gradle/caches/transforms-2/files-2.1/d19f4a953c99d3f2d115bbfbbeb29cbc/AndroidManifest.xml:30:25-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/ef16550ad5ee0877001896c06ba70977/AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/58e93792a7827c2f3df2842a08eb4532/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/datta/.gradle/caches/transforms-2/files-2.1/a2c01ad783a3702951092db8f1e283f4/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/datta/.gradle/caches/transforms-2/files-2.1/0a9e0a7f624e5eb5a88e06eee732e3b8/AndroidManifest.xml:24:13-58

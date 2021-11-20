@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">852495725262-n4jpo094jha6hgcghl5jdbpm9a2onrbp.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://busyhunkproject.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">852495725262</string>
+    <string name="google_api_key" translatable="false">AIzaSyB62UWkfTL7bZmPfual0wMK3dtS47yUsJY</string>
+    <string name="google_app_id" translatable="false">1:852495725262:android:106559b15be7847b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB62UWkfTL7bZmPfual0wMK3dtS47yUsJY</string>
+    <string name="google_storage_bucket" translatable="false">busyhunkproject.appspot.com</string>
+    <string name="project_id" translatable="false">busyhunkproject</string>
+</resources>

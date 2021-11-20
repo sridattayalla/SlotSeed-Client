@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView16"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginStart="16dp"-->
+    <!--android:layout_marginTop="24dp"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/imageView17"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:srcCompat="@drawable/female_hair_cut" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView17"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginStart="32dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView16"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/imageView18"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView16"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView16"-->
+    <!--app:srcCompat="@drawable/female_facial" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView18"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginStart="32dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView17"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/imageView19"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView17"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView17"-->
+    <!--app:srcCompat="@drawable/female_makeup" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView19"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginEnd="16dp"-->
+    <!--android:layout_marginStart="32dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView18"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.5"-->
+    <!--app:layout_constraintStart_toEndOf="@+id/imageView18"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView18"-->
+    <!--app:srcCompat="@drawable/female_threading" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView20"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Hair Dressing"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView16"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView16"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView16" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView21"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Facial"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView17"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView17"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView17" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView22"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="MakeUp"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView18"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView18"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView18" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView23"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Threading"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView19"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView19"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView19" />-->
+
+    <!--&lt;!&ndash;<View&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/view11"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="0.1dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="8dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/blue_grey400"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_constraintTop_toBottomOf="@+id/textView20" />&ndash;&gt;-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView20"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView16"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView16"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView20"-->
+    <!--app:srcCompat="@drawable/female_hair_color" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView21"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView20"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView17"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView17"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView20"-->
+    <!--app:srcCompat="@drawable/female_massage" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView22"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView21"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView18"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView18"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView21"-->
+    <!--app:srcCompat="@drawable/female_manicure" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView23"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/imageView22"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView19"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView19"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/imageView22"-->
+    <!--app:srcCompat="@drawable/female_waxing" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView24"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Hair Coloring"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView20"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView20"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView20" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView25"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Massage"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView21"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView21"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView21" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView26"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Manicure"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView22"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView22"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView22" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView27"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:text="Waxing"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView23"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView23"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView23" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView31"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView20"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView20"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView24"-->
+    <!--app:srcCompat="@drawable/female_pedicure" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView37"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:text="Pedicure"-->
+    <!--android:textSize="@dimen/items_text_size"-->
+    <!--android:textColor="@color/black"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/imageView31"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/imageView31"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView31" />-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/internet"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Opps! Poor internet Connection. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Another try?"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/textView23"
+            app:layout_constraintStart_toStartOf="@+id/textView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/container"
+        app:layout_constraintTop_toTopOf="@+id/container">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loading_anim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_fileName="funky_chicken.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Getting trendy offers for you..."
+            app:layout_constraintEnd_toEndOf="@+id/loading_anim"
+            app:layout_constraintStart_toStartOf="@+id/loading_anim"
+            app:layout_constraintTop_toBottomOf="@+id/loading_anim" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:nestedScrollingEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Deals &amp; Offers"
+        android:textColor="@color/teal900"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hair"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/female_hair_cut"
+                app:layout_constraintEnd_toStartOf="@+id/skin"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/skin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/female_skin_care"
+                app:layout_constraintBottom_toBottomOf="@+id/hair"
+                app:layout_constraintEnd_toStartOf="@+id/spa"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/hair"
+                app:layout_constraintTop_toTopOf="@+id/hair" />
+
+            <ImageView
+                android:id="@+id/spa"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/female_massage"
+                app:layout_constraintBottom_toBottomOf="@+id/skin"
+                app:layout_constraintEnd_toStartOf="@+id/all"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/skin"
+                app:layout_constraintTop_toTopOf="@+id/skin" />
+
+            <ImageView
+                android:id="@+id/all"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/all"
+                app:layout_constraintBottom_toTopOf="@+id/textView77"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/spa"
+                app:layout_constraintTop_toTopOf="@+id/spa" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Hair Care"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/hair"
+                app:layout_constraintStart_toStartOf="@+id/hair"
+                app:layout_constraintTop_toBottomOf="@+id/hair" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Skin Care"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/skin"
+                app:layout_constraintStart_toStartOf="@+id/skin"
+                app:layout_constraintTop_toBottomOf="@+id/skin" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Spa"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/spa"
+                app:layout_constraintStart_toStartOf="@+id/spa"
+                app:layout_constraintTop_toBottomOf="@+id/spa" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Salons"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/textView30"
+                app:layout_constraintEnd_toEndOf="@+id/all"
+                app:layout_constraintStart_toStartOf="@+id/all"
+                app:layout_constraintTop_toTopOf="@+id/textView30" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

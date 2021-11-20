@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">SlotSeed</string>
+    <string name="phone_num_hint">10 digit mobile number</string>
+    <string name="otp_hint">Enter Otp</string>
+    <string name="otp_verify">Verify</string>
+    <string name="resend_otp">Resend Otp</string>
+    <string name="welcome">Welcome</string>
+    <string name="location">Location</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="tctext"><u>By SignIn, you agree to our Terms &amp; Privacy policy</u></string>
+    <string name="no">no</string>
+    <string name="both">both</string>
+    <string name="rupee_symbol">₹</string>
+
+    <!--<string name="hair_dressing">Hair Dressing</string>-->
+    <!--<string name="facial">Facial</string>-->
+    <!--<string name="beard_trimming">Beard Trimming</string>-->
+    <!--<string name="beard_coloring">Beard Coloring</string>-->
+    <!--<string name="hair_coloring">Hair Coloring</string>-->
+    <!--<string name="massage">Massage</string>-->
+    <!--<string name="shaving">Shaving</string>-->
+    <!--<string name="waxing">Waxing</string>-->
+
+
+    <!--<string name="make_up">Make Up</string>-->
+    <!--<string name="threading">Threading</string>-->
+    <!--<string name="manicure">Manicure</string>-->
+    <!--<string name="pedicure">Pedicure</string>-->
+
+    //categories
+    <string name="hair">Hair</string>
+    <string name="skin_care">Skin Care</string>
+    <string name="pedicure">Pedicure</string>
+    <string name="manicure">Manicure</string>
+    <string name="spa">Spa</string>
+
+    //TOP OFFERS
+    <string name="providers">PROVIDERS</string>
+    <string name="share">SHARE</string>
+    <string name="offer_of_the_day">OFFER_OF_THE_DAY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //TRANSACTION TYPES
+    <string name="reward">reward</string>
+    <string name="salon">Salon Booking</string>
+
+    //terms and conditions
+    <string name="booking_terms_conditions">
+        <ol>
+        <li>Booking can be cancled only 6 hours before booked time</li>
+        <li>After 10 minutes of booked time your booking validation depends on provider</li>
+        <li>Cash back process will be initiated only after service completion</li>
+    </ol>
+    </string>
+
+    //transaction status
+    <string name="failed">FAILED</string>
+    <string name="successful">SUCCESSFUL</string>
+    <string name="completed">COMPLETED</string>
+    <string name="missed">MISSED</string>
+    <string name="canceled">CANCELED</string>
+
+    //promocode status
+    <string name="pending">PENDING</string>
+    <string name="title_activity_main_latest">MainActivityLatest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

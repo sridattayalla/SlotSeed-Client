@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="17dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:text="Men grooming"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/toggleSwitch"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <io.ghyeok.stickyswitch.widget.StickySwitch
+                android:id="@+id/toggleSwitch"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:ss_animationDuration="300"
+                app:ss_animationType="line"
+                app:ss_iconPadding="10dp"
+                app:ss_iconSize="20dp"
+                app:ss_leftIcon="@drawable/male_symbol"
+                app:ss_leftText="Male"
+                app:ss_rightIcon="@drawable/female_symbol"
+                app:ss_rightText="Female"
+                app:ss_selectedTextSize="12sp"
+                app:ss_sliderBackgroundColor="@color/black"
+                app:ss_switchColor="@color/colorPrimaryDark"
+                app:ss_textColor="@color/colorPrimaryDark"
+                app:ss_textSize="12sp" />
+
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/he_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toggleSwitch">
+
+                <TextView
+                    android:id="@+id/m_hair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Hair"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/mi_hair"
+                    app:layout_constraintStart_toStartOf="@+id/mi_hair"
+                    app:layout_constraintTop_toBottomOf="@+id/mi_hair" />
+
+                <ImageView
+                    android:id="@+id/mi_hair"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/mi_skin"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/male_hair_cut" />
+
+                <ImageView
+                    android:id="@+id/mi_skin"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/mi_spa"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/mi_hair"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/male_skincare" />
+
+                <ImageView
+                    android:id="@+id/mi_spa"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/mi_all"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/mi_skin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/male_massage" />
+
+                <ImageView
+                    android:id="@+id/mi_all"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/mi_spa"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/all" />
+
+                <TextView
+                    android:id="@+id/m_skin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Skin Care"
+                    app:layout_constraintEnd_toEndOf="@+id/mi_skin"
+                    app:layout_constraintStart_toStartOf="@+id/mi_skin"
+                    app:layout_constraintTop_toBottomOf="@+id/mi_skin" />
+
+                <TextView
+                    android:id="@+id/m_spa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Spa"
+                    app:layout_constraintEnd_toEndOf="@+id/mi_spa"
+                    app:layout_constraintStart_toStartOf="@+id/mi_spa"
+                    app:layout_constraintTop_toBottomOf="@+id/mi_spa" />
+
+                <TextView
+                    android:id="@+id/m_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="All Salons"
+                    app:layout_constraintEnd_toEndOf="@+id/mi_all"
+                    app:layout_constraintStart_toStartOf="@+id/mi_all"
+                    app:layout_constraintTop_toBottomOf="@+id/mi_all" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/she_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toggleSwitch">
+
+                <TextView
+                    android:id="@+id/f_hair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Hair"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/fi_hair"
+                    app:layout_constraintStart_toStartOf="@+id/fi_hair"
+                    app:layout_constraintTop_toBottomOf="@+id/fi_hair" />
+
+                <ImageView
+                    android:id="@+id/fi_hair"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/fi_skin"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/female_hair_cut" />
+
+                <ImageView
+                    android:id="@+id/fi_skin"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/fi_spa"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/fi_hair"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/female_skin_care" />
+
+                <ImageView
+                    android:id="@+id/fi_spa"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/fi_all"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/fi_skin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/female_massage" />
+
+                <ImageView
+                    android:id="@+id/fi_all"
+                    android:layout_width="@dimen/main_page_image_size"
+                    android:layout_height="@dimen/main_page_image_size"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/fi_spa"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/all" />
+
+                <TextView
+                    android:id="@+id/f_skin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Skin Care"
+                    app:layout_constraintEnd_toEndOf="@+id/fi_skin"
+                    app:layout_constraintStart_toStartOf="@+id/fi_skin"
+                    app:layout_constraintTop_toBottomOf="@+id/fi_skin" />
+
+                <TextView
+                    android:id="@+id/f_spa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Spa"
+                    app:layout_constraintEnd_toEndOf="@+id/fi_spa"
+                    app:layout_constraintStart_toStartOf="@+id/fi_spa"
+                    app:layout_constraintTop_toBottomOf="@+id/fi_spa" />
+
+                <TextView
+                    android:id="@+id/f_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="All Salons"
+                    app:layout_constraintEnd_toEndOf="@+id/fi_all"
+                    app:layout_constraintStart_toStartOf="@+id/fi_all"
+                    app:layout_constraintTop_toBottomOf="@+id/fi_all" />
+            </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
